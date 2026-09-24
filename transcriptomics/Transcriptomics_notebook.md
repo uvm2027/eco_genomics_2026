@@ -70,11 +70,13 @@ To add this image, "/image -\> browse"
 
 ------------------------------------------------------------------------
 
-## 9/24/26 
+## 9/24/26
 
 ### notes on where we are
 
--   (cd) change dir
+-   
+
+    (cd) change dir
 
 -   (.) from where i am
 
@@ -109,3 +111,35 @@ What we have been doing in R-
 -   \~/users/j/d/jdrezner/Projects/eco_genomics_2026/transcriptomics
 
 ------------------------------------------------------------------------
+
+\``#general tomfoolery in r, basic R functions and objects####`
+
+`# The "c()" keeps everything together`
+
+`x <- 5`
+
+`students <- data.frame(`
+
+`name = c("A", "B", "C"),`
+
+`height = c(62, 68, 72)`
+
+`)`
+
+`head(students)`
+
+`class(students)`
+
+`str(students)`
+
+`students$name[1]`
+
+`#for students give me the column 1, row 2 value`
+
+`students[1, 2]`
+
+`mean(students$height)`
+
+`# basic R -----------------------------------------------------------------`
+
+``` #^to make this, ctrl-shift-r `` ```
